@@ -7,7 +7,7 @@ Created on Sat Aug 20 15:12:54 2022
 
 import streamlit as st
 import pandas as pd
-df = pd.read_csv(r"C:\Users\Shan Rehman\Downloads\AirPassengers.csv")
+df = pd.read_csv("AirPassengers.csv")
 print(df)
 
 def main():
